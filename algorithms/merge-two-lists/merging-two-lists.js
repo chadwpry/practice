@@ -18,13 +18,10 @@ let size2 = list2.length;
 let i1 = 0; i2 = 0;
 
 while (i1 < size1 && i2 < size2) {
-  let temp1 = list1[i1];
-  let temp2 = list2[i2];
-
-  if (temp1 > temp2) {
+  if (list1[i1] > list2[i2]) {
     mergedList.push(list2[i2++]);
 
-  } else if (temp1 < temp2) {
+  } else if (list1[i1] < list2[i2]) {
     mergedList.push(list1[i1++]);
 
   } else {
