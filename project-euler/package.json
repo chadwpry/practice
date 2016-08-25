@@ -1,0 +1,22 @@
+{
+  "name": "euler",
+  "version": "1.0.0",
+  "description": "practicing project euler",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -w specs",
+    "test-math-add": "./node_modules/.bin/mocha -w specs/bigInt.add.js",
+    "test-math-multiply": "./node_modules/.bin/mocha -w specs/bigInt.multiply.js",
+    "test-math-subtract": "./node_modules/.bin/mocha -w specs/bigInt.subtract.js"
+  },
+  "author": "Chad W Pry <chad.pry@gmail.com> (http://about.me/pry)",
+  "license": "ISC"
+}
