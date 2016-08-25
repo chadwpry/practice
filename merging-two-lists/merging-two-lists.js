@@ -2,12 +2,12 @@ let list1 = [], list2 = [];
 let c;
 
 // define list1 (tens)
-for (c = 0; c <= 1000000; c += 10) {
+for (c = 0; c <= 100; c += 10) {
   list1.push(c);
 };
 
 // define list2 (odds)
-for (c = 1; c <= 1000000; c += 2) {
+for (c = 1; c <= 100; c += 2) {
   list2.push(c)
 };
 
