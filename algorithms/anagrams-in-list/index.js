@@ -16,9 +16,11 @@ for (var c = 0; c < inputs.length; c++) {
 
 Object.keys(anagrams).forEach((key) => {
   if (anagrams[key].length > 1) {
-    output.push(anagrams[key]);
+    output.push(anagrams[key].join(' '));
   }
 });
 
-console.log(output);
+output.forEach((anagramString) => {
+  console.log(anagramString);
+});
 
